@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    background-color: #465362;
+}
+
+main h1 {
+    padding: 0 0 60px 0px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #C0DFA1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px ;
+    width: 80%;
+    height: 60%;
+   background-color: #82A3A1;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+form div:last-child{
+    margin-bottom: 0;
+}
+
+form div label {
+    font-weight: bold;
+}
+
+form div input {
+    background-color: #c0dfa1;
+}
+
+#email-message {
+    height: 150px;
+}
+
+button{
+    width: 50px;
+    border-radius: 10px;
+}
+
+@media all and (min-width: 600px) {
+    form{
+        max-width: 600px;
+    }
+}
